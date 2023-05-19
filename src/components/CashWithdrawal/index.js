@@ -13,27 +13,27 @@ class CashWithdrawal extends Component {
   render() {
     const {denominationsList} = this.props
     const {balance} = this.state
-    // const name = 'Sarah Williams'
-    // const initial = name.slice(0, 1)
+    const name = 'Sarah Williams'
+    const initial = name.slice(0, 1)
 
     return (
       <div className="bg-container">
         <div className="cash-withdrawal-container">
           <div className="name-content">
             <p className="s-logo">S</p>
-            <h className="heading">Sarah Williams</h>
+            <p className="heading">{initial}</p>
           </div>
           <div className="balance-content">
-            <h1 className="sub-heading">Your Balance</h1>
-            <h1 className="balance-count">
+            <p className="sub-heading">Your Balance</p>
+            <p className="balance-count">
               {balance}
               <br />
               <span className="rupees">In Rupees</span>
-            </h1>
+            </p>
           </div>
           <div>
-            <h1 className="heading">Withdraw</h1>
-            <p className="para">CHOOSE SUM(IN RUPEES)</p>
+            <p className="heading">Withdraw</p>
+            <p className="para">CHOOSE SUM (IN RUPEES)"</p>
             <ul className="denominations-list">
               {denominationsList.map(eachDenomination => (
                 <DenominationItem
