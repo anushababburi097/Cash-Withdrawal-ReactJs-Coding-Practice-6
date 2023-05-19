@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  align-items: center;
+  border-radius: 9px;
+  height: 50%;
+  width: 45%;
+  margin: 77px;
+}
+.name-content {
+  display: flex;
+  padding: 7px;
+}
+.heading {
+  color: #ffff;
+  padding-top: 21px;
+  margin-left: 8px;
+  padding-bottom: 22px;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.s-logo {
+  color: #382f5a;
+  background-color: #c7d2fe;
+  text-align: center;
+  width: 35px;
+  height: 37px;
+  margin: 22px;
+  padding-top: 6px;
+  border-radius: 50px;
+  padding-bottom: 22px;
+}
+.balance-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px;
+}
+.sub-heading {
+  color: #382f5a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.balance-count {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .balance-count {
+    font-size: 30px;
+  }
+  .rupees {
+    font-size: 59px;
+  }
+}
+.rupees {
+  color: #382f5a;
+  font-weight: bold;
+  font-size: 10px;
+}
+.para {
+  color: #382f5a;
+  font-weight: bold;
+  margin: 7px;
+}
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
